@@ -1,4 +1,5 @@
 import java.io.File;
+import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.Iterator;
@@ -6,7 +7,7 @@ import java.util.Map;
 import java.util.Scanner;
 import java.util.TreeMap;
 class Main{
-	public static void main(String[] args) throws IOException{
+	public static void main(String[] args) throws FileNotFoundException{
 		// Part 1
 		// Find the Elf carrying the most Calories. How many total Calories is that Elf carrying?
 		Scanner f = new Scanner(new File("input"));
