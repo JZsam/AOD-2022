@@ -15,18 +15,24 @@ class Main{
 			case 'A':
 				switch(xyz){
 					case 'X':
-						//Tie
-						score=1+3;
+						//Part 1 Tie
+						//score=1+3;
+						//Part 2 Lose
+						score=3;
 						System.out.println("Tie a-x");
 						break;
 					case 'Y':
-						//Win
-						score=2+6;
+						//Part 1 Win
+						// score=2+6;
+						//Part 2 Tie
+						score=1+3;
 						System.out.println("Win a-y");
 						break;
 					case 'Z':
-						//Lose
-						score=3+0;
+						//Part 1 Lose
+						// score=3+0;
+						//Part 2 Win
+						score=6+2;
 						System.out.println("Lose a-z");
 						break;
 				}
@@ -53,18 +59,24 @@ class Main{
 			case 'C':
 				switch(xyz){
 					case 'X':
-						//Win
-						score=1+6;
+						//Part 1 Win
+						// score=1+6;
+						//Part 2 Lose
+						score=2;
 						System.out.println("Win c-x");
 						break;
 					case 'Y':
-						//Lose
-						score=2+0;
+						//Part 1 Lose
+						// score=2+0;
+						//Part 2 Tie
+						score=3+3;
 						System.out.println("Lose c-y");
 						break;
 					case 'Z':
-						//Tie
-						score=3+3;
+						//Part 1 Tie
+						// score=3+3;
+						//Part 2 Win
+						score=6+1;
 						System.out.println("Tie c-z");
 						break;
 				}
